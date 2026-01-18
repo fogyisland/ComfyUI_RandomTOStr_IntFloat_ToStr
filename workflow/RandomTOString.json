@@ -1,0 +1,113 @@
+{
+  "id": "366e146c-c588-4dca-8b55-1e6295ec7776",
+  "revision": 0,
+  "last_node_id": 79,
+  "last_link_id": 111,
+  "nodes": [
+    {
+      "id": 79,
+      "type": "RandomIntToStr",
+      "pos": [
+        335.63336572189996,
+        353.1722157024807
+      ],
+      "size": [
+        270,
+        54
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input_int_value",
+          "shape": 7,
+          "type": "INT",
+          "link": null
+        },
+        {
+          "name": "input_float_value",
+          "shape": 7,
+          "type": "FLOAT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "输出字符串",
+          "type": "STRING",
+          "links": [
+            111
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomIntToStr"
+      },
+      "widgets_values": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": 77,
+      "type": "ComfyUIShowText",
+      "pos": [
+        805.716010349999,
+        463.8333727272728
+      ],
+      "size": [
+        171.0337890625,
+        88
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 111
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "aux_id": "fogyisland/Comfy_Show_StringText",
+        "ver": "c022e25c018137805026c3044be158b465a8c23f",
+        "Node name for S&R": "ComfyUIShowText"
+      },
+      "widgets_values": []
+    }
+  ],
+  "links": [
+    [
+      111,
+      79,
+      0,
+      77,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.2100000000000002,
+      "offset": [
+        31.722006178926833,
+        -163.91601735537256
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "frontendVersion": "1.35.9"
+  },
+  "version": 0.4
+}
