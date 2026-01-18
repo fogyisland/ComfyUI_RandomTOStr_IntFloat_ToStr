@@ -26,8 +26,7 @@ String: text
 
 典型工作流
 
-![alt text](无)
-
+![alt text](https://github.com/fogyisland/ComfyUI_RandomTOStr_IntFloat_ToStr/blob/main/workflow/RandomTostring.png)
 
 更新日志
 v0.1.0 (2026-01-28)
